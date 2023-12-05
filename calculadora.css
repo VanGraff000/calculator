@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #7c93c3, #829ac7, #88a1cc, #8ea8d0, #95afd4, #96b3d5, #98b6d5, #9abad6, #98bbd3, #98bdcf, #99bdcc, #9bbec8) no-repeat center fixed;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+::selection {
+    background: none;
+}
+
+.calculadora {
+    width: 420px;
+    padding: 1.5rem;
+    background: rgba( 124, 129, 173, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#pantalla {
+    width: 89%;
+    padding: 0.9rem;
+    margin-bottom: 1rem;
+    background-color:  rgb(158, 184, 217);
+    border: 1px solid rgba(195, 190, 190, 0.3);
+    border-radius: 16px;
+    text-align: right;
+    font-size: 1.9rem;
+    color: #F2FCFC;
+    cursor: default;
+}
+
+input[type="button"] {
+    width: 90px;
+    min-height: 55px;
+    margin-left: 0.4rem;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    background: transparent;
+    border-radius: 1rem;
+    border: 1px solid rgba(210, 233, 233, 0.16);
+    cursor: pointer;
+    color: #eee;
+}
+
+input[type="button"]:hover {
+    background: rgb(158, 184, 217);
+    border-radius: 16px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
+}
+
+input[type="button"]:last-child {
+    margin-right: 0;
+}
+
+input[type="button"]:last-child:hover {
+    background: rgba(179, 18, 18, 0.623);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+input[type="button"]:nth-child(6):hover {
+    background-color: rgb(144, 183, 125);
+}
+
+input[type="button"]:nth-child(11):hover {
+    background-color: rgb(181, 82, 92);
+}
+
+input[type="button"]:nth-child(16):hover {
+    background-color: rgb(229, 210, 131);
+}
+
+input[type="button"]:nth-child(21):hover {
+    background-color: rgb(79, 112, 156);
+}
+
+input[type="button"]:nth-child(20):hover {
+    background-color: rgb(229, 195, 166);
+}
+
+footer {
+    text-align: center;
+    color: #E0F4FF;
+    text-shadow: 0 2px 2px #232323;
+}
